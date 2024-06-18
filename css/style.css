@@ -795,6 +795,9 @@ input:focus-visible, textarea:focus-visible{
 }
 
 @media (width <= 500px) {
+  html{
+    font-size: 50%;
+  }
   footer{
     padding-left: 1rem;
 
@@ -802,5 +805,12 @@ input:focus-visible, textarea:focus-visible{
       text-align: center;
   }
   }
+  .section-navbar .container {
+    padding-left: 0;
+    
+    & .navbar ul {
+        gap: 1.2rem;
+    }
+}
 }
 /***** End Medis queries Section *****/
